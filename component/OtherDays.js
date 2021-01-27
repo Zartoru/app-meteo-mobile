@@ -16,28 +16,3 @@ const OthersDays = ({day}) => {
 }
 
 export default OthersDays
-
-const styles = StyleSheet.create({
-    nextDays: {
-        borderBottomColor: "grey",
-        borderBottomWidth: 3,
-        height: 100,
-        backgroundColor: "#bccbcd",
-    },
-    odays__icon: {
-        height: 100,
-        width: 100,
-    },
-    odays__date: {
-        fontSize: 20,
-        position: 'absolute',
-        top: 20,
-        right: 60,
-    },
-    odays__temp: {
-        fontSize: 15,
-        position: 'absolute',
-        top: 50,
-        right: 60,
-    }
-})
